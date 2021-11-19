@@ -92,7 +92,7 @@ And also anyone can register as a new user by sending a _POST_ request:
 
 
  1. Install __MySQL__  
- 2. Install __Tomcat 9.0.50__  
+ 2. Install __Tomcat 9.0.54__  
  3. Fork and clone this project  
  4. Add your correct information to [db.properties](src/main/resources/db.properties) to be able to connect to your database
   
