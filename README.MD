@@ -18,11 +18,11 @@ ___This is an app to showcase my knowledge and skills in Java, OOP, SOLID concep
 
 
 
-
+<a id="features"></a>
 
 <h2>Features</h2>
 
-<a id="features"></a>
+
 
 The application uses user authorization, 
 after which you will get access to certain "end points":
@@ -57,7 +57,6 @@ __ADMIN & USER__
 And also anyone can register as a new user by sending a _POST_ request:
 * /register
 
-    
 
 
 
@@ -66,10 +65,12 @@ And also anyone can register as a new user by sending a _POST_ request:
 
 
 
+
+<a id="technologies"></a>
 
 <h2>Technologies used</h2>
 
-<a id="technologies"></a>
+
 
 * __Java 11__
 * __SOLID concepts__
@@ -85,11 +86,10 @@ And also anyone can register as a new user by sending a _POST_ request:
 
 
 
-
+<a id="howStart"></a>
 
 <h2>How Start</h2>
 
-<a id="howStart"></a>
 
  1. Install __MySQL__ or other DB  
  2. Install __Tomcat 9.0.50__  
