@@ -91,7 +91,7 @@ And also anyone can register as a new user by sending a _POST_ request:
 <h2>How Start</h2>
 
 
- 1. Install __MySQL__ or other DB  
+ 1. Install __MySQL__  
  2. Install __Tomcat 9.0.50__  
  3. Fork and clone this project  
  4. Add your correct information to [db.properties](src/main/resources/db.properties) to be able to connect to your database
@@ -113,7 +113,9 @@ Password: admin1234
 
 _USER_  
 Login: user@i.ua  
-Password: user1234
+Password: user1234 
+
+
 6. To send _POST_, _DELETE_ and _PUT_ requests, you can use [Postman](https://www.postman.com/home)  
 
 
