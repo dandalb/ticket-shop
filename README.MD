@@ -29,14 +29,14 @@ after which you will get access to certain "end points":
 
 __ADMIN__
   * _POST_ 
-    * /cinema-halls ```{"capacity":50, "description":"Big hall"}```
-    * /movies ```{"title":"Forrest gump", "description":"Run forrest!"}```  
-    * /movie-sessions ```{"movieId":1, "cinemaHallId":1, "showTime":"15.08.2021 21:30"}```
+    * /cinema-halls — ```{"capacity":50, "description":"Big hall"}```
+    * /movies — ```{"title":"Forrest gump", "description":"Run Forrest!"}```  
+    * /movie-sessions — ```{"movieId":1, "cinemaHallId":1, "showTime":"15.08.2021 21:30"}```
     
   * _GET_
     * /users/by-email ```?email=user@i.ua```
   * _PUT_  
-    * /movie-sessions/{id} ```{"movieId":1, "cinemaHallId":1, "showTime":"15.08.2021 19:00"}```
+    * /movie-sessions/{id} — ```{"movieId":1, "cinemaHallId":1, "showTime":"15.08.2021 19:00"}```
   * _DELETE_  
     * /movie-sessions/{id}  
   
@@ -56,7 +56,7 @@ __ADMIN & USER__
     *  /movie-sessions/available   
 
 And also anyone can register as a new user by sending a _POST_ request:
-* /register ```{"email":"yourEmail", "password":"12345678", "repeatPassword":"12345678"}```
+* /register — ```{"email":"yourEmail", "password":"12345678", "repeatPassword":"12345678"}```
 
 
 
