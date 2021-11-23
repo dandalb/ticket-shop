@@ -2,8 +2,7 @@
 
 <h1>Ticket shop application</h1>   
 
-___This is an app to showcase my knowledge and skills in Java, OOP, SOLID concepts, Spring and Hibernate frameworks.___
-
+___This app is a simplified version of a ticket store where the user can send http requests to buy movie tickets and more. You can find out more about this below.___
 
 
 
@@ -78,10 +77,9 @@ And also anyone can register as a new user by sending a _POST_ request:
 * __Spring__ (Spring Core, Spring Security, Spring Web)
 * __Hibernate__
 * __REST__
-* __JSON__  
 * __Maven__
 * __MySQL__
-* __Tomcat 9.0.54__
+* __Tomcat 9.0.50__
 
 
 
@@ -92,8 +90,8 @@ And also anyone can register as a new user by sending a _POST_ request:
 <h2>How Start</h2>
 
 
- 1. Install __MySQL__  
- 2. Install __Tomcat 9.0.54__  
+ 1. Install __[MySQL](https://dev.mysql.com/downloads/)__  
+ 2. Install __[Tomcat 9.0.50](https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.50/bin/)__  
  3. Fork and clone this project  
  4. Add your correct information to [db.properties](src/main/resources/db.properties) to be able to connect to your database
   
